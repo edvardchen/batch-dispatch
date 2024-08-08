@@ -4,20 +4,25 @@
   "description": "A small library for async batching process",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/bun": "latest",
+    "eslint": "^9.8.0",
     "globals": "^15.9.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8",
+    "prettier": "^3.3.3",
     "typescript-eslint": "^8.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "eslint": "^9.8.0"
+  "lint-staged": {
+    "!(.husky/*|bun*)": "prettier --write"
   }
 }
