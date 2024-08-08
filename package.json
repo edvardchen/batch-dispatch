@@ -1,6 +1,6 @@
 {
   "name": "batch-dispatch",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A small library for async batching process",
   "main": "src/index.ts",
   "scripts": {
