@@ -1,6 +1,6 @@
 # batch-dispatch
 
-A small library for async batching process
+A small toolkit to allow batch-processing scattering async calls. Inspired by GraphQL's DataLoader
 
 ## Install
 
@@ -8,7 +8,7 @@ A small library for async batching process
 npm i batch-dispatch
 ```
 
-## Uage
+## Usage
 
 ```js
 import { batchDispatch } from "batch-dispatch";
